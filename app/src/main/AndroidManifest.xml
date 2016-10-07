@@ -19,6 +19,9 @@
         <activity android:name=".Activity_Sliding_Tab_Register"
             android:screenOrientation="portrait" >
         </activity>
+        <activity android:name=".Activity_Google_Sign_In"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>

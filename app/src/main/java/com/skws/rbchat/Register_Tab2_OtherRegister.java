@@ -63,8 +63,9 @@ public class Register_Tab2_OtherRegister extends Fragment implements View.OnClic
         switch (v.getId()) {
             case R.id.sign_in_button_google:
                 Log.d("Google SignIn Result", "CLICKKKKKKKKKKKKKKKK");
-                Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
-                startActivityForResult(signInIntent, RC_SIGN_IN);
+                //Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
+                //startActivityForResult(signInIntent, RC_SIGN_IN);
+                startActivity(new Intent(getActivity(), Activity_Google_Sign_In.class));
                 break;
         }
     }
@@ -86,6 +87,7 @@ public class Register_Tab2_OtherRegister extends Fragment implements View.OnClic
         if (result.isSuccess()) {
             // Signed in successfolly, show authenticated UI.
             GoogleSignInAccount acct = result.getSignInAccount();
+
             Log.e("GSR Result", "Result: " + acct.getDisplayName() + ", " + acct.getEmail());
             //mStatusTextView.setText(getString(R.string.signed_in_fmt, acct.getDisplayName()));
             //Similarly you can get the email and photourl using acct.getEmail() and  acct.getPhotoUrl()

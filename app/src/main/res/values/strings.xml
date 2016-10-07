@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">RBChat</string>
+
+    <string name="loading">Loading…</string>
+
+    <string name="auth_fail">Authentication failed</string>
+    <string name="google_play_service_error">Google Play Services error</string>
+
     <string name="register">Account Register</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
