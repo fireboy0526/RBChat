@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174121232142",
+    "firebase_url": "https://rb-chat-145709.firebaseio.com",
+    "project_id": "rb-chat-145709",
+    "storage_bucket": "rb-chat-145709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174121232142:android:c6eaa51351b9f5e9",
+        "android_client_info": {
+          "package_name": "com.skws.rbchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174121232142-meho2p6qcv4drpka44kghvovjrb6vo16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skws.rbchat",
+            "certificate_hash": "F945ECD3D394A993246CF7516C893B84A03172A3"
+          }
+        },
+        {
+          "client_id": "174121232142-hmorhrsalibrfpvam85tcmkkpnmr7dtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbw4rX3ddiq4EU5oXwHanv1NNcwCeUxT0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174121232142-hmorhrsalibrfpvam85tcmkkpnmr7dtf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

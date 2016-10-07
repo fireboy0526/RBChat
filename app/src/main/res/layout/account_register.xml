@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDefaultLayout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="65dp"
+            android:text="@string/register"
+            android:textSize="36dp"
+            android:textColor="@color/colorFont"/>
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_below="@+id/txtRegister"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/colorFont"
+            android:hint="@string/username"
+            android:textColorHint="#666464"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_below="@+id/edtUsername"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/colorFont"
+            android:hint="@string/password"
+            android:textColorHint="#666464"
+            android:inputType="textPassword"
+            android:ellipsize="start"/>
+
+        <EditText
+            android:id="@+id/edtRePassword"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_below="@+id/edtPassword"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="@color/colorFont"
+            android:hint="@string/re_password"
+            android:textColorHint="#666464"
+            android:inputType="textPassword"
+            android:ellipsize="start"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonshape"
+            android:layout_below="@+id/edtRePassword"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/btn_register"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+</ScrollView>

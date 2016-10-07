@@ -1,3 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">RBChat</string>
+    <string name="register">Account Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re-Enter Password</string>
+    <string name="btn_register">Register</string>
+    <string name="register_with">Register With: </string>
+    <string name="br_register">BR Account Register</string>
+    <string name="other_register">Other Type Register</string>
+    <string name="menu_settings">Settings</string>
 </resources>

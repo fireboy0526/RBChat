@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RBChat</string>
+    <string name="register">帳號註冊</string>
+    <string name="username">帳號</string>
+    <string name="password">密碼</string>
+    <string name="re_password">在一次輸入密碼</string>
+    <string name="btn_register">註冊</string>
+    <string name="register_with">使用以下方式註冊: </string>
+    <string name="br_register">BR 帳號註冊</string>
+    <string name="other_register">其他類型註冊</string>
+    <string name="menu_settings">設定</string>
+</resources>

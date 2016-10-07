@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorBorder">#0e0e0e</color>
+    <color name="colorFont">#000000</color>
+    <color name="colorDefaultLayout">#FFFFFF</color>
+    <color name="colorHint">#666464</color>
+    <color name="colorMainLight">#73a9ff</color>
+    <color name="colorMainDark">#557ebf</color>
+    <color name="tabScrollColor">#ffcefe</color>
 </resources>
