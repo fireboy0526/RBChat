@@ -43,6 +43,7 @@ public class Register_Tab2_OtherRegister extends Fragment implements View.OnClic
                 .enableAutoManage(getActivity() /* FragmentActivity */, this /* OnConnectionFailedListener */)
                 .addApi(Auth.GOOGLE_SIGN_IN_API,gso)
                 .build();
+        //test
     }
 
     @Override
