@@ -44,7 +44,11 @@ public class NotificationUtils {
         this.mContext = mContext;
     }
 
-    public void showNotificaitonMessage(String title, String message, String timeStamp, Intent intent, String imageUrl) {
+    public void showNotificationMessage(String title, String message, String timeStamp, Intent intent) {
+        showNotificationMessage(title, message, timeStamp, intent, null);
+    }
+
+    public void showNotificationMessage(String title, String message, String timeStamp, Intent intent, String imageUrl) {
         // Check if empty push message
         if (TextUtils.isEmpty(message)) {
             return;
