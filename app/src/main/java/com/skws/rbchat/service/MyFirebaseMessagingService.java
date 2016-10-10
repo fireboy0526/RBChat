@@ -20,7 +20,7 @@ import com.skws.rbchat.MainActivity;
  * Created by Eric on 10/9/2016.
  */
 
-public class MyFirebaseMessagingService  extends FirebaseMessagingService {
+public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = MyFirebaseMessagingService.class.getSimpleName();
 

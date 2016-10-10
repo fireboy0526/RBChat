@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.skws.rbchat.MainActivity">
+    tools:context="com.skws.rbchat.Test.MainActivity2">
 
     <TextView
         android:id="@+id/txt_push_message"

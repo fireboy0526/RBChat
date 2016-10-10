@@ -1,11 +1,10 @@
 package com.skws.rbchat;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.EditText;
+
+import com.skws.rbchat.Test.MainActivity2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.account_register);
 
-        Intent intent = new Intent(getApplicationContext(), Activity_Sliding_Tab_Register.class);
+        //Intent intent = new Intent(getApplicationContext(), Activity_Sliding_Tab_Register.class);
+        Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
         startActivity(intent);
         finish();
     }
