@@ -109,6 +109,13 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                     // Have image
                     showNotificationMessageWithBigImage(getApplication(), title, message, timestamp, resultIntent, imageUrl);
                 }
+
+                // TODO insert sound check over here
+                /**
+                 * Firebase control panel only sends notification message.
+                 * Data message can only be send by developer server.
+                 * Data message have to design layout and "action" by developer
+                 */
             }
         } catch (JSONException e) {
             Log.e (TAG, "Json Exception: " + e.getMessage());
