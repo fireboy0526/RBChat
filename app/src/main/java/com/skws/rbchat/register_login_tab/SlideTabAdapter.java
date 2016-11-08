@@ -1,8 +1,11 @@
-package com.skws.rbchat;
+package com.skws.rbchat.register_login_tab;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.skws.rbchat.register_login_tab.Register_Tab1_RBRegister;
+import com.skws.rbchat.register_login_tab.Register_Tab2_OtherRegister;
 
 /**
  * Created by Eric on 10/3/2016.

@@ -18,11 +18,11 @@
             </intent-filter>
         </activity>
         <!-- Add new Activity Class Below Here -->
-        <activity android:name=".Activity_Sliding_Tab_Register"
+        <activity android:name=".register_login_tab.Activity_Sliding_Tab_Register"
             android:screenOrientation="portrait" >
         </activity>
         <!-- Sign in Activity -->
-        <activity android:name=".Activity_Google_Sign_In"
+        <activity android:name=".register_signin.Activity_Google_Sign_In"
             android:screenOrientation="portrait" >
         </activity>
         <activity android:name=".Test.MainActivity2"

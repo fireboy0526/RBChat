@@ -1,9 +1,8 @@
-package com.skws.rbchat;
+package com.skws.rbchat.register_signin;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -13,7 +12,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
@@ -24,12 +22,14 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.skws.rbchat.app.ProgressLoader;
+import com.skws.rbchat.R;
 
 /**
  * Created by Eric on 10/7/2016.
  */
 
-public class Activity_Google_Sign_In extends Controller_Signin implements
+public class Activity_Google_Sign_In extends ProgressLoader implements
         GoogleApiClient.OnConnectionFailedListener,
         View.OnClickListener {
 

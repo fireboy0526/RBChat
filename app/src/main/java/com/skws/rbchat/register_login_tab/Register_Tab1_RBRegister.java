@@ -1,4 +1,4 @@
-package com.skws.rbchat;
+package com.skws.rbchat.register_login_tab;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ScrollView;
+
+import com.skws.rbchat.R;
 
 /**
  * Created by Eric on 10/3/2016.

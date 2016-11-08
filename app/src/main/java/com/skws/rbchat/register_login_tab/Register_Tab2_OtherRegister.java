@@ -1,20 +1,15 @@
-package com.skws.rbchat;
+package com.skws.rbchat.register_login_tab;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.gms.auth.api.Auth;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.auth.api.signin.GoogleSignInResult;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
+import com.skws.rbchat.R;
+import com.skws.rbchat.register_signin.Activity_Google_Sign_In;
 
 /**
  * Created by Eric on 10/3/2016.
@@ -39,7 +34,6 @@ public class Register_Tab2_OtherRegister extends Fragment implements View.OnClic
     public void onClick (View v) {
         switch (v.getId()) {
             case R.id.sign_in_button_google:
-                Log.d("Google SignIn Result", "CLICKKKKKKKKKKKKKKKK");
                 //Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
                 //startActivityForResult(signInIntent, RC_SIGN_IN);
                 startActivity(new Intent(getActivity(), Activity_Google_Sign_In.class));

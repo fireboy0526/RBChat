@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.skws.rbchat.Test.MainActivity2;
+import com.skws.rbchat.register_login_tab.Activity_Sliding_Tab_Register;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.account_register);
 
-        //Intent intent = new Intent(getApplicationContext(), Activity_Sliding_Tab_Register.class);
-        Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
+        Intent intent = new Intent(getApplicationContext(), Activity_Sliding_Tab_Register.class);
+        //Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
         startActivity(intent);
         finish();
     }

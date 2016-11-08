@@ -1,14 +1,16 @@
-package com.skws.rbchat;
+package com.skws.rbchat.app;
 
 import android.app.ProgressDialog;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.app.AppCompatActivity;
 
+import com.skws.rbchat.R;
+
 /**
  * Created by Eric on 10/7/2016.
  */
 
-public class Controller_Signin extends AppCompatActivity {
+public class ProgressLoader extends AppCompatActivity {
 
     @VisibleForTesting
     public ProgressDialog mProgressDialog;

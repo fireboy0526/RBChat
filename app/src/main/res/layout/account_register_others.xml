@@ -30,15 +30,5 @@
         android:layout_gravity="center"
         app:buttonSize="wide"
         app:colorScheme="dark"/>
-    <Button
-        android:id="@+id/sign_out_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign Out"
-        android:layout_below="@+id/sign_in_button_google"
-        android:layout_alignStart="@+id/sign_in_button_google"
-        android:layout_alignLeft="@+id/sign_in_button_google"
-        android:visibility="visible"
-        tools:visibility="gone"/>
 
 </RelativeLayout>
